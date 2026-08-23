@@ -167,7 +167,11 @@ Guidelines for your responses:
 
     for (const modelName of modelsToTry) {
       try {
-        const response = await ai.models.generateContent({
+        const timeoutPromise = new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error('Timeout')), 12000)
+        );
+
+        const responsePromise = ai.models.generateContent({
           model: modelName,
           contents: [
             { role: 'user', parts: [{ text: `SYSTEM INSTRUCTIONS:\n${systemInstruction}\n\nPlease respond to the user's latest query in the ongoing conversation below.` }] },
@@ -178,12 +182,14 @@ Guidelines for your responses:
           ],
         });
 
-        if (response.text) {
+        const response = await Promise.race([responsePromise, timeoutPromise]);
+
+        if (response && response.text) {
           const rawText = response.text.trim();
           return parseChatResponse(rawText);
         }
       } catch (_err: unknown) {
-        // Continue silently to next model or deterministic fallback on quota/rate-limits
+        // Continue silently to next model or deterministic fallback on quota/rate-limits/timeout
       }
     }
   }

@@ -201,10 +201,13 @@ export function createApp() {
     }
   });
 
-  app.get('/api/agent/runs/:userId', (req, res) => {
+  const getRunsHandler = (req: express.Request, res: express.Response) => {
     const runs = db.getAgentRunsForUser(req.params.userId);
     res.json(runs);
-  });
+  };
+
+  app.get('/api/agent/history/:userId', getRunsHandler);
+  app.get('/api/agent/runs/:userId', getRunsHandler);
 
   app.get('/api/agent/run/:id', (req, res) => {
     const run = db.getAgentRun(req.params.id);
@@ -214,47 +217,68 @@ export function createApp() {
     res.json(run);
   });
 
-  // Chat with Agent Nova (Autonomous Assistant)
-  app.post('/api/chat', async (req, res) => {
+  // Chat with Agent Nova (Autonomous Assistant & Career Mentor)
+  const handleChat = async (req: express.Request, res: express.Response) => {
     try {
-      const { user_id, message, conversation_history } = req.body;
-      if (!user_id || !message) {
-        return res.status(400).json({ error: 'user_id and message are required' });
-      }
+      const { user_id, messages, message, conversation_history } = req.body;
+      const targetUserId = user_id || 'usr_rahul_001';
 
-      const user = db.getUser(user_id) || DEFAULT_USER;
-      const memories = db.getMemories(user_id);
-      const opportunities = db.getOpportunities();
-
-      const history: ChatMessageParam[] = Array.isArray(conversation_history) 
-        ? conversation_history 
-        : [];
-
-      const result = await chatWithAgentNova(message, user, memories, opportunities, history);
-
-      if (result.extracted_memories && result.extracted_memories.length > 0) {
-        for (const mem of result.extracted_memories) {
-          db.addMemory({
-            user_id: user.id,
-            memory_type: (mem.memory_type as any) || 'PREFERENCE',
-            memory_text: mem.memory_text,
-            importance: (mem.importance as any) || 'MEDIUM',
-            category: mem.category || 'Conversation Insight'
-          });
+      // Support both array of messages [{role, content}] and single message with history
+      let chatMessages: ChatMessageParam[] = [];
+      if (Array.isArray(messages) && messages.length > 0) {
+        chatMessages = messages.map(m => ({
+          role: m.role === 'assistant' || m.sender === 'nova' ? 'assistant' : 'user',
+          content: m.content || m.text || ''
+        }));
+      } else if (message) {
+        if (Array.isArray(conversation_history)) {
+          chatMessages = [
+            ...conversation_history.map(m => ({
+              role: m.role === 'assistant' || m.sender === 'nova' ? 'assistant' : 'user',
+              content: m.content || m.text || ''
+            })),
+            { role: 'user', content: message }
+          ];
+        } else {
+          chatMessages = [{ role: 'user', content: message }];
         }
       }
 
+      if (chatMessages.length === 0) {
+        return res.status(400).json({ error: 'Messages are required' });
+      }
+
+      const user = db.getUser(targetUserId) || DEFAULT_USER;
+      const memories = db.getMemories(targetUserId);
+      const opportunities = db.getOpportunities();
+
+      const userProfileSummary = `Name: ${user.name}, Degree: ${user.degree}, Branch: ${user.branch}, Year: ${user.year}, Location: ${user.location}, Skills: ${user.skills.join(', ')}, Interests: ${user.career_interests.join(', ')}, Preferences: ${user.preferred_opportunity_types.join(', ')}`;
+      const memorySummary = memories.length > 0 
+        ? memories.map(m => `[${m.category || m.memory_type}]: ${m.memory_text}`).join('\n')
+        : 'No specific personal memory notes recorded yet.';
+      const opportunitiesSummary = opportunities.slice(0, 8).map(o => `${o.title} at ${o.company} (${o.type}, Match: ${o.match_score}%, Skills: ${o.required_skills.join(', ')})`).join('\n');
+
+      const result = await chatWithAgentNova(
+        chatMessages,
+        userProfileSummary,
+        memorySummary,
+        opportunitiesSummary
+      );
+
       res.json({
         reply: result.reply,
-        suggested_actions: result.suggested_actions || [],
-        saved_memories_count: result.extracted_memories?.length || 0,
-        current_memories: db.getMemories(user.id)
+        suggestedQuestions: result.suggestedQuestions || [],
+        suggested_actions: result.suggestedQuestions || [],
+        context: result.context
       });
     } catch (e: any) {
       console.error('Chat endpoint error:', e);
       res.status(500).json({ error: e.message || 'Error processing chat message' });
     }
-  });
+  };
+
+  app.post('/api/agent/chat', handleChat);
+  app.post('/api/chat', handleChat);
 
   // --- ATS Scanner Endpoints ---
 
