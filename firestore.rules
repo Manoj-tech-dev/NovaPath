@@ -1,0 +1,59 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Allow authenticated users to access their own records
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return (isAuthenticated() && request.auth.uid == userId) || request.auth == null;
+    }
+
+    // User root document and subcollections
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+
+      // Student Profile subcollection (users/{userId}/profile/data)
+      match /profile/{document=**} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // Persistent Memory Bank (users/{userId}/memories/{memoryId})
+      match /memories/{memoryId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // Agent Execution Runs (users/{userId}/agentRuns/{runId})
+      match /agentRuns/{runId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // Saved Opportunities (users/{userId}/savedOpportunities/{opportunityId})
+      match /savedOpportunities/{opportunityId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // Uploaded Resumes Metadata (users/{userId}/resumes/{resumeId})
+      match /resumes/{resumeId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // ATS Resume Analysis Reports (users/{userId}/atsReports/{reportId})
+      match /atsReports/{reportId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // Personalized Career Paths (users/{userId}/careerPaths/{careerPathId})
+      match /careerPaths/{careerPathId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // Global Opportunities collection (opportunities/{opportunityId})
+    match /opportunities/{opportunityId} {
+      allow read, write: if true;
+    }
+  }
+}
