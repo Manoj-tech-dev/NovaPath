@@ -54,7 +54,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess, theme = 'dark' 
       } else if (err?.code === 'auth/popup-blocked') {
         setAuthError('Popup was blocked by your browser. Please allow popups for localhost:3000 to choose your Google account.');
       } else if (err?.code === 'auth/unauthorized-domain') {
-        setAuthError('Domain not authorized: Please add "localhost" to Authorized Domains in Firebase Console (Authentication > Settings > Authorized Domains).');
+        const currentDomain = typeof window !== 'undefined' ? window.location.hostname : 'your Vercel domain';
+        setAuthError(`Domain not authorized: Please add "${currentDomain}" to Authorized Domains in Firebase Console (Authentication > Settings > Authorized Domains).`);
       } else {
         setAuthError(err?.message || 'Google sign-in failed. Please try again.');
       }
