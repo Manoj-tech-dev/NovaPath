@@ -110,7 +110,11 @@ export const normalizeInputToEmail = (input: string): { normalizedEmail: string;
  * Safely links anonymous guest accounts to Google accounts where appropriate without data loss.
  */
 export const signInWithGoogle = async (): Promise<AppAuthUser> => {
-  googleProvider.setCustomParameters({
+  const provider = new GoogleAuthProvider();
+  provider.addScope('email');
+  provider.addScope('profile');
+  provider.addScope('openid');
+  provider.setCustomParameters({
     prompt: 'select_account'
   });
 
@@ -119,19 +123,19 @@ export const signInWithGoogle = async (): Promise<AppAuthUser> => {
   // If currently an anonymous guest, attempt to link the account so guest data is preserved
   if (auth.currentUser && auth.currentUser.isAnonymous) {
     try {
-      const linkResult = await linkWithPopup(auth.currentUser, googleProvider);
+      const linkResult = await linkWithPopup(auth.currentUser, provider);
       firebaseUser = linkResult.user;
     } catch (linkErr: any) {
       if (linkErr.code === 'auth/credential-already-in-use') {
         // Google account already exists as a separate user: sign in directly to that user
-        const signInResult = await signInWithPopup(auth, googleProvider);
+        const signInResult = await signInWithPopup(auth, provider);
         firebaseUser = signInResult.user;
       } else {
         throw linkErr;
       }
     }
   } else {
-    const result = await signInWithPopup(auth, googleProvider);
+    const result = await signInWithPopup(auth, provider);
     firebaseUser = result.user;
   }
 
@@ -278,33 +282,32 @@ export const signInAsDemoUser = async (customName?: string, customEmail?: string
 export const signOut = async (): Promise<void> => {
   try {
     await firebaseSignOut(auth);
-  } catch {
-    // Ignore signout error
+  } catch (err) {
+    console.warn('Firebase signout warning:', err);
   }
+  try {
+    localStorage.removeItem(SESSION_KEY);
+  } catch {}
   setSavedDemoUser(null);
 };
 
 export const subscribeToAuthState = (callback: (user: AppAuthUser | null) => void) => {
   listeners.add(callback);
 
-  // Send initial session if an explicit demo session was active
-  const currentSaved = getSavedDemoUser();
-  if (currentSaved?.isDemo) {
-    callback(currentSaved);
-  }
-
   const unsubscribeFirebase = onAuthStateChanged(auth, (firebaseUser) => {
     if (firebaseUser) {
       const user: AppAuthUser = {
         uid: firebaseUser.uid,
         email: firebaseUser.email,
-        displayName: firebaseUser.displayName,
+        displayName: firebaseUser.displayName || (firebaseUser.email ? firebaseUser.email.split('@')[0] : 'Student User'),
         isDemo: firebaseUser.isAnonymous
       };
       setSavedDemoUser(user);
     } else {
       const saved = getSavedDemoUser();
-      if (!saved?.isDemo) {
+      if (saved?.isDemo) {
+        callback(saved);
+      } else {
         setSavedDemoUser(null);
       }
     }
