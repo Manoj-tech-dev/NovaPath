@@ -114,15 +114,15 @@ export function createApp() {
       const userSkills = (skills && skills.length > 0) ? skills : user.skills;
       
       const searchResults = await searchWebOpportunities(
-        userSkills, 
-        user.career_interests, 
-        existingOpps,
         {
+          skills: userSkills,
+          userProfile: user,
           location: location || user.location,
           type: type || 'Internship',
           remote: typeof remote === 'boolean' ? remote : user.remote_preference,
-          customQuery: query
-        }
+          query: query
+        },
+        existingOpps
       );
 
       if (searchResults && searchResults.length > 0) {
@@ -149,7 +149,7 @@ export function createApp() {
   app.get('/api/trends', async (req, res) => {
     try {
       const user = db.getUser('usr_rahul_001') || DEFAULT_USER;
-      const trends = await fetchDailyTechTrends(user.skills, user.career_interests);
+      const trends = await fetchDailyTechTrends(user.skills);
       res.json(trends);
     } catch (e: any) {
       console.error('Tech trends API error:', e);
@@ -188,12 +188,8 @@ export function createApp() {
       if (!user_id || !goal) {
         return res.status(400).json({ error: 'user_id and goal are required' });
       }
-      
-      const user = db.getUser(user_id) || DEFAULT_USER;
-      const memories = db.getMemories(user_id);
-      const opportunities = db.getOpportunities();
 
-      const run = await agentOrchestrator.executeGoal(goal, user, memories, opportunities);
+      const run = await agentOrchestrator.execute({ userId: user_id, goal });
       res.json(run);
     } catch (e: any) {
       console.error('Agent run execution error:', e);
@@ -227,20 +223,20 @@ export function createApp() {
       let chatMessages: ChatMessageParam[] = [];
       if (Array.isArray(messages) && messages.length > 0) {
         chatMessages = messages.map(m => ({
-          role: m.role === 'assistant' || m.sender === 'nova' ? 'assistant' : 'user',
+          role: (m.role === 'assistant' || m.sender === 'nova' ? 'assistant' : 'user') as 'user' | 'assistant' | 'system',
           content: m.content || m.text || ''
         }));
       } else if (message) {
         if (Array.isArray(conversation_history)) {
           chatMessages = [
             ...conversation_history.map(m => ({
-              role: m.role === 'assistant' || m.sender === 'nova' ? 'assistant' : 'user',
+              role: (m.role === 'assistant' || m.sender === 'nova' ? 'assistant' : 'user') as 'user' | 'assistant' | 'system',
               content: m.content || m.text || ''
             })),
-            { role: 'user', content: message }
+            { role: 'user' as const, content: message }
           ];
         } else {
-          chatMessages = [{ role: 'user', content: message }];
+          chatMessages = [{ role: 'user' as const, content: message }];
         }
       }
 
@@ -256,7 +252,7 @@ export function createApp() {
       const memorySummary = memories.length > 0 
         ? memories.map(m => `[${m.category || m.memory_type}]: ${m.memory_text}`).join('\n')
         : 'No specific personal memory notes recorded yet.';
-      const opportunitiesSummary = opportunities.slice(0, 8).map(o => `${o.title} at ${o.company} (${o.type}, Match: ${o.match_score}%, Skills: ${o.required_skills.join(', ')})`).join('\n');
+      const opportunitiesSummary = opportunities.slice(0, 8).map(o => `${o.title} at ${o.organization} (${o.type}, Skills: ${o.skills.join(', ')})`).join('\n');
 
       const result = await chatWithAgentNova(
         chatMessages,
@@ -268,8 +264,7 @@ export function createApp() {
       res.json({
         reply: result.reply,
         suggestedQuestions: result.suggestedQuestions || [],
-        suggested_actions: result.suggestedQuestions || [],
-        context: result.context
+        suggested_actions: result.suggestedQuestions || []
       });
     } catch (e: any) {
       console.error('Chat endpoint error:', e);
@@ -310,7 +305,7 @@ export function createApp() {
         fileSize,
         storagePath: `resumes/${userId}/${resumeId}/${fileName}`,
         uploadedAt: new Date().toISOString(),
-        status: 'PARSED'
+        status: 'UPLOADED'
       };
 
       db.saveResumeMetadata(resumeMetadata);
@@ -467,41 +462,26 @@ export function createApp() {
   // Generate a tailored, multi-phase Career Execution Path
   app.post('/api/career-path/generate', async (req, res) => {
     try {
-      const { user_id, target_role, target_opportunity_id, custom_interests, timeframe_months } = req.body;
+      const { user_id, target_role, target_opportunity_id, custom_interests, timeframe_months, target_company, target_job_description } = req.body;
       const userId = user_id || 'usr_rahul_001';
       const user = db.getUser(userId) || DEFAULT_USER;
       const memories = db.getMemories(userId);
       const targetOpp = target_opportunity_id ? db.getOpportunityById(target_opportunity_id) : undefined;
       const targetRoleTitle = target_role || targetOpp?.title || 'AI/ML Software Engineer';
 
-      const generated = await generatePersonalizedCareerPath(
-        user,
-        targetRoleTitle,
-        memories,
-        targetOpp,
-        custom_interests,
-        timeframe_months || 6
-      );
-
-      const pathId = `cp_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
-      const careerPath: CareerPath = {
-        id: pathId,
-        careerPathId: pathId,
+      const generated: CareerPath = await generatePersonalizedCareerPath({
         userId,
         targetRole: targetRoleTitle,
-        targetOpportunityId: target_opportunity_id || undefined,
-        currentReadinessScore: generated.currentReadinessScore,
-        estimatedTimeToReadiness: generated.estimatedTimeToReadiness,
-        summary: generated.summary,
-        skillGaps: generated.skillGaps,
-        phases: generated.phases,
-        strategicRecommendations: generated.strategicRecommendations,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
-      };
+        targetOpportunityId: target_opportunity_id,
+        targetOpportunityTitle: targetOpp?.title,
+        targetCompany: target_company || targetOpp?.organization,
+        targetJobDescription: target_job_description || targetOpp?.description,
+        userProfile: user,
+        memories
+      });
 
-      db.saveCareerPath(careerPath);
-      res.json(careerPath);
+      db.saveCareerPath(generated);
+      res.json(generated);
     } catch (err: any) {
       console.error('Career path generation error:', err);
       res.status(500).json({ error: 'Failed to generate career path', details: err.message });
