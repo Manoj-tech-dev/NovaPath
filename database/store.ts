@@ -24,7 +24,9 @@ interface DBData {
   career_paths: CareerPath[];
 }
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+const DATA_DIR = process.env.VERCEL 
+  ? path.join('/tmp', 'data') 
+  : path.join(process.cwd(), 'data');
 const DB_FILE = path.join(DATA_DIR, 'db.json');
 
 // Default initial user per hackathon requirements
