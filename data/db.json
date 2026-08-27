@@ -35,6 +35,16 @@
     {
       "user_id": "demo_student_user_01",
       "memory_type": "INTERACTION",
+      "memory_text": "User executed career goal: \"full stack engineering job roles\"",
+      "importance": "MEDIUM",
+      "category": "Execution History",
+      "id": "mem_1787764920498_62jug",
+      "created_at": "2026-08-26T17:22:00.498Z",
+      "updated_at": "2026-08-26T17:22:00.498Z"
+    },
+    {
+      "user_id": "demo_student_user_01",
+      "memory_type": "INTERACTION",
       "memory_text": "User executed career goal: \"Find opportunities for me.\"",
       "importance": "MEDIUM",
       "category": "Execution History",
@@ -104,6 +114,358 @@
     }
   ],
   "opportunities": [
+    {
+      "title": "Backend Engineering Intern",
+      "organization": "Razorpay",
+      "type": "Internship",
+      "location": "Remote",
+      "remote": true,
+      "skills": [
+        "Python",
+        "SQL",
+        "Docker",
+        "Git"
+      ],
+      "eligibility": "3rd or 4th year B.Tech students",
+      "deadline": "2026-01-15",
+      "description": "Build high-throughput payment processing APIs and data services. Experience with Docker for deployment and SQL for database management is essential.",
+      "source": "Company Careers",
+      "url": "https://razorpay.com/jobs/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹50,000 / month",
+      "id": "opp_1787764685612_t1ele5",
+      "created_at": "2026-08-26T17:18:05.612Z"
+    },
+    {
+      "title": "Associate ML Engineer",
+      "organization": "Oracle",
+      "type": "Full-time",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "C"
+      ],
+      "eligibility": "Fresh graduates (2026 Batch)",
+      "deadline": "2026-04-01",
+      "description": "Design and optimize ML algorithms and integrate them into enterprise-grade systems. Proficiency in low-level languages like C and high-level Python is required.",
+      "source": "Company Careers",
+      "url": "https://www.oracle.com/corporate/careers/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹12-15 LPA",
+      "id": "opp_1787764685612_ds4l43",
+      "created_at": "2026-08-26T17:18:05.612Z"
+    },
+    {
+      "title": "Data Engineering Intern",
+      "organization": "JPMorgan Chase & Co.",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "Git"
+      ],
+      "eligibility": "Pre-final year students (2026 batch)",
+      "deadline": "2026-02-20",
+      "description": "Develop financial data models and analytics pipelines using Python and Pandas. The role emphasizes writing efficient SQL queries and managing code via Git.",
+      "source": "Company Careers",
+      "url": "https://jpmc.fa.oraclecloud.com/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹65,000 / month",
+      "id": "opp_1787764685612_twmq7f",
+      "created_at": "2026-08-26T17:18:05.612Z"
+    },
+    {
+      "title": "Software Development Engineer Intern (Data & AI)",
+      "organization": "Amazon",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Java",
+        "Python",
+        "SQL",
+        "DSA"
+      ],
+      "eligibility": "Pre-final year B.Tech/B.E. students",
+      "deadline": "2026-01-30",
+      "description": "Build robust backend services and data processing tools to support large-scale AI applications. Candidates must demonstrate deep knowledge of data structures and complex SQL queries.",
+      "source": "Company Careers",
+      "url": "https://www.amazon.jobs/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹75,000 / month",
+      "id": "opp_1787764685612_8awvds",
+      "created_at": "2026-08-26T17:18:05.612Z"
+    },
+    {
+      "title": "MLOps Engineering Intern",
+      "organization": "Swiggy",
+      "type": "Internship",
+      "location": "Remote",
+      "remote": true,
+      "skills": [
+        "Python",
+        "Docker",
+        "Machine Learning",
+        "Git"
+      ],
+      "eligibility": "B.Tech/M.Tech (Graduating 2026)",
+      "deadline": "2026-02-15",
+      "description": "Automate ML model deployment cycles and build monitoring tools. Essential focus on Python automation and Dockerized pipelines.",
+      "source": "Company Careers",
+      "url": "https://careers.swiggy.com/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹45,000 / month",
+      "id": "opp_1787764685321_qtwmdq",
+      "created_at": "2026-08-26T17:18:05.321Z"
+    },
+    {
+      "title": "Data Engineering Intern",
+      "organization": "Oracle",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "SQL",
+        "Python",
+        "Docker",
+        "Pandas"
+      ],
+      "eligibility": "B.Tech students (2026 batch)",
+      "deadline": "2026-05-01",
+      "description": "Architect data pipelines and database solutions for cloud products. Emphasizes Docker for environment consistency and SQL for data management.",
+      "source": "Company Careers",
+      "url": "https://www.oracle.com/corporate/careers/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹50,000 / month",
+      "id": "opp_1787764685321_r6gnzi",
+      "created_at": "2026-08-26T17:18:05.321Z"
+    },
+    {
+      "title": "Software Development Engineer (SDE) Intern - AI Platform",
+      "organization": "Amazon",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Java",
+        "Python",
+        "DSA",
+        "Docker"
+      ],
+      "eligibility": "Pre-final year B.Tech/B.E",
+      "deadline": "2026-04-15",
+      "description": "Build distributed systems for internal ML tools using Java and Python. Focuses on containerization and efficient algorithmic implementation.",
+      "source": "Company Careers",
+      "url": "https://www.amazon.jobs/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹80,000 / month",
+      "id": "opp_1787764685321_1x7b1o",
+      "created_at": "2026-08-26T17:18:05.321Z"
+    },
+    {
+      "title": "Data Science Intern",
+      "organization": "JP Morgan Chase",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "Machine Learning"
+      ],
+      "eligibility": "3rd/4th year B.Tech students (Graduating 2026)",
+      "deadline": "2026-02-28",
+      "description": "Work on financial data modeling and predictive analytics using Python-based data pipelines. Requires rigorous testing and SQL optimization.",
+      "source": "Company Careers",
+      "url": "https://careers.jpmorgan.com/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹70,000 / month",
+      "id": "opp_1787764685321_htm14l",
+      "created_at": "2026-08-26T17:18:05.321Z"
+    },
+    {
+      "title": "Machine Learning Engineering Intern",
+      "organization": "Microsoft",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "DSA"
+      ],
+      "eligibility": "B.Tech/M.Tech students graduating in 2026",
+      "deadline": "2026-03-31",
+      "description": "Develop and deploy scalable ML models for Azure services. Involves high-performance data processing and backend integration.",
+      "source": "Company Careers",
+      "url": "https://careers.microsoft.com/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹80,000 - ₹1,00,000 / month",
+      "id": "opp_1787764685321_10jvzq",
+      "created_at": "2026-08-26T17:18:05.321Z"
+    },
+    {
+      "title": "Junior Data Analyst",
+      "organization": "Zepto",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "SQL",
+        "Python",
+        "Pandas",
+        "Git"
+      ],
+      "eligibility": "Students graduating in 2026",
+      "deadline": "May 2026",
+      "description": "Analyze delivery operational metrics using Python/Pandas and optimize query performance in SQL. Support the growth team with data-driven insights.",
+      "source": "Zepto Careers",
+      "url": "https://www.zeptonow.com/careers",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹45,000 / month",
+      "id": "opp_1787764558276_5ylsnv",
+      "created_at": "2026-08-26T17:15:58.276Z"
+    },
+    {
+      "title": "Research Intern",
+      "organization": "TCS Research",
+      "type": "Research",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Pandas",
+        "SQL"
+      ],
+      "eligibility": "B.Tech/M.Tech (2026 Batch)",
+      "deadline": "March 2026",
+      "description": "Conduct applied research on deep learning architectures for industrial automation. Focus on data preparation using Pandas and SQL queries.",
+      "source": "TCS Research Portal",
+      "url": "https://www.tcs.com/careers/india/internships",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹35,000 / month",
+      "id": "opp_1787764558276_zlkn8f",
+      "created_at": "2026-08-26T17:15:58.276Z"
+    },
+    {
+      "title": "AI/ML Software Engineer Intern",
+      "organization": "Amazon",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "Git"
+      ],
+      "eligibility": "2026 Graduating batch",
+      "deadline": "February 2026",
+      "description": "Develop high-performance ML algorithms for e-commerce personalization. Manage code development cycles using Git in a professional environment.",
+      "source": "Amazon Jobs",
+      "url": "https://www.amazon.jobs/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹75,000 / month",
+      "id": "opp_1787764558276_031z5r",
+      "created_at": "2026-08-26T17:15:58.276Z"
+    },
+    {
+      "title": "AI/ML Engineering Intern",
+      "organization": "Google",
+      "type": "Internship",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Git",
+        "SQL"
+      ],
+      "eligibility": "Students graduating in 2026",
+      "deadline": "January 2026",
+      "description": "Collaborate on Google Search or Cloud AI infrastructure teams. Implement ML models and manage version control using Git.",
+      "source": "Google Careers",
+      "url": "https://careers.google.com/students/",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹1,20,000 / month",
+      "id": "opp_1787764558275_ee7odt",
+      "created_at": "2026-08-26T17:15:58.275Z"
+    },
+    {
+      "title": "Data Science Research Intern",
+      "organization": "IIT Hyderabad Lab",
+      "type": "Research",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "Pandas",
+        "Machine Learning",
+        "Git"
+      ],
+      "eligibility": "Undergraduate/Master's students interested in academic research",
+      "deadline": "2026-03-01",
+      "description": "Assist lead researchers in developing algorithms for computer vision or NLP. Use Python and Pandas to process research datasets and Git for project tracking.",
+      "source": "Web Search",
+      "url": "https://iith.ac.in/careers",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹20,000 / month",
+      "id": "opp_1787764557753_488ykm",
+      "created_at": "2026-08-26T17:15:57.753Z"
+    },
+    {
+      "title": "Software Development Engineer - Data",
+      "organization": "Amazon",
+      "type": "Full-time",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "SQL",
+        "Git",
+        "Machine Learning"
+      ],
+      "eligibility": "Final year students graduating in 2026",
+      "deadline": "2026-01-30",
+      "description": "Design and implement scalable software services that integrate machine learning models. Manage code lifecycle via Git and leverage SQL for complex data queries.",
+      "source": "Company Careers",
+      "url": "https://www.amazon.jobs",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹20-25 LPA",
+      "id": "opp_1787764557753_0iwu2x",
+      "created_at": "2026-08-26T17:15:57.753Z"
+    },
+    {
+      "title": "Junior AI/ML Engineer",
+      "organization": "TCS Research",
+      "type": "Full-time",
+      "location": "Hyderabad",
+      "remote": false,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "Git"
+      ],
+      "eligibility": "B.Tech/M.Tech graduates 2026",
+      "deadline": "2026-05-01",
+      "description": "Work on cutting-edge research projects involving predictive analytics and automated systems. Responsibilities include building ML models and maintaining version-controlled codebases.",
+      "source": "Company Careers",
+      "url": "https://www.tcs.com/careers",
+      "source_type": "LIVE_API",
+      "stipend_or_salary": "₹7-9 LPA",
+      "id": "opp_1787764557751_8i7n5n",
+      "created_at": "2026-08-26T17:15:57.751Z"
+    },
     {
       "title": "Software Engineer (ML focus)",
       "organization": "Zepto",
@@ -2234,6 +2596,4151 @@
   ],
   "applications": [],
   "agent_runs": [
+    {
+      "id": "run_1787764697922_odycb",
+      "user_id": "demo_student_user_01",
+      "goal": "full stack engineering job roles",
+      "status": "COMPLETED",
+      "retrieved_preferences": [
+        "User executed career goal: \"Find opportunities for me.\"",
+        "User executed career goal: \"software engineering jobs\"",
+        "User executed career goal: \"software engineering jobs\"",
+        "User executed career goal: \"i want a hackathon in hyderabad\"",
+        "User executed career goal: \"I want an AI/ML internship in Hyderabad.\"",
+        "Preferred location: Hyderabad",
+        "Remote flexibility preferred"
+      ],
+      "created_at": "2026-08-26T17:18:17.922Z",
+      "steps": [],
+      "summary": "Analyzed goal: \"full stack engineering job roles\". Successfully retrieved student profile and long-term preferences, evaluated 91 opportunities, identified 3 skill development priorities, and formulated a tailored 7-step action plan.",
+      "opportunities": [
+        {
+          "title": "Data Engineering Intern",
+          "organization": "JPMorgan Chase & Co.",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Git"
+          ],
+          "eligibility": "Pre-final year students (2026 batch)",
+          "deadline": "2026-02-20",
+          "description": "Develop financial data models and analytics pipelines using Python and Pandas. The role emphasizes writing efficient SQL queries and managing code via Git.",
+          "source": "Company Careers",
+          "url": "https://jpmc.fa.oraclecloud.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹65,000 / month",
+          "id": "opp_1787764685612_twmq7f",
+          "created_at": "2026-08-26T17:18:05.612Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Intern",
+          "organization": "JP Morgan Chase",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "eligibility": "3rd/4th year B.Tech students (Graduating 2026)",
+          "deadline": "2026-02-28",
+          "description": "Work on financial data modeling and predictive analytics using Python-based data pipelines. Requires rigorous testing and SQL optimization.",
+          "source": "Company Careers",
+          "url": "https://careers.jpmorgan.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹70,000 / month",
+          "id": "opp_1787764685321_htm14l",
+          "created_at": "2026-08-26T17:18:05.321Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Junior Data Analyst",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "SQL",
+            "Python",
+            "Pandas",
+            "Git"
+          ],
+          "eligibility": "Students graduating in 2026",
+          "deadline": "May 2026",
+          "description": "Analyze delivery operational metrics using Python/Pandas and optimize query performance in SQL. Support the growth team with data-driven insights.",
+          "source": "Zepto Careers",
+          "url": "https://www.zeptonow.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787764558276_5ylsnv",
+          "created_at": "2026-08-26T17:15:58.276Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (SQL, Python, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "SQL",
+            "Python",
+            "Pandas",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Research Intern",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "Pandas",
+            "SQL"
+          ],
+          "eligibility": "B.Tech/M.Tech (2026 Batch)",
+          "deadline": "March 2026",
+          "description": "Conduct applied research on deep learning architectures for industrial automation. Focus on data preparation using Pandas and SQL queries.",
+          "source": "TCS Research Portal",
+          "url": "https://www.tcs.com/careers/india/internships",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 / month",
+          "id": "opp_1787764558276_zlkn8f",
+          "created_at": "2026-08-26T17:15:58.276Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "Pandas",
+            "SQL"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Software Engineer Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "eligibility": "2026 Graduating batch",
+          "deadline": "February 2026",
+          "description": "Develop high-performance ML algorithms for e-commerce personalization. Manage code development cycles using Git in a professional environment.",
+          "source": "Amazon Jobs",
+          "url": "https://www.amazon.jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787764558276_031z5r",
+          "created_at": "2026-08-26T17:15:58.276Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "Git",
+            "SQL"
+          ],
+          "eligibility": "Students graduating in 2026",
+          "deadline": "January 2026",
+          "description": "Collaborate on Google Search or Cloud AI infrastructure teams. Implement ML models and manage version control using Git.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/students/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,20,000 / month",
+          "id": "opp_1787764558275_ee7odt",
+          "created_at": "2026-08-26T17:15:58.275Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, Git)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "Git",
+            "SQL"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Research Intern",
+          "organization": "IIT Hyderabad Lab",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Pandas",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "Undergraduate/Master's students interested in academic research",
+          "deadline": "2026-03-01",
+          "description": "Assist lead researchers in developing algorithms for computer vision or NLP. Use Python and Pandas to process research datasets and Git for project tracking.",
+          "source": "Web Search",
+          "url": "https://iith.ac.in/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹20,000 / month",
+          "id": "opp_1787764557753_488ykm",
+          "created_at": "2026-08-26T17:15:57.753Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Pandas, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Pandas",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "B.Tech/M.Tech students (2026 graduating class)",
+          "deadline": "March 2026",
+          "description": "Assist in building predictive maintenance models for Cloud infrastructure. Requires extensive SQL for data extraction and Python for predictive analysis.",
+          "source": "Oracle Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 - ₹60,000 / month",
+          "id": "opp_1787476457702_5saetx",
+          "created_at": "2026-08-23T09:14:17.702Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Engineering Intern (AI/ML)",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Git",
+            "Machine Learning",
+            "SQL"
+          ],
+          "eligibility": "B.Tech/M.Tech graduating in 2026",
+          "deadline": "November 2025",
+          "description": "Collaborate with engineering teams to integrate ML solutions into Google products. Focuses on robust code development using Git and scalable model deployment.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/students/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "Competitive Industry Standard",
+          "id": "opp_1787476457283_ydoihx",
+          "created_at": "2026-08-23T09:14:17.283Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Git, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Git",
+            "Machine Learning",
+            "SQL"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Research Intern (AI & Data)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "SQL",
+            "Pandas"
+          ],
+          "eligibility": "Final year undergraduate or Masters students",
+          "deadline": "2026-01-31",
+          "description": "Conduct applied research on deep learning architectures for industrial applications. You will be expected to prototype solutions using Python and document findings through Git repositories.",
+          "source": "TCS Research Careers",
+          "url": "https://www.tcs.com/careers/india/research-internships",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 / month",
+          "id": "opp_1787476440570_uzpmdp",
+          "created_at": "2026-08-23T09:14:00.570Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Machine Learning, Python, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Machine Learning",
+            "Python",
+            "SQL",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Development Engineer Intern (Data)",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas"
+          ],
+          "eligibility": "Students graduating in 2026",
+          "deadline": "March 2026",
+          "description": "Focus on data processing and development of internal tools for Oracle Cloud infrastructure. Strong emphasis on data wrangling with Pandas and complex SQL database management.",
+          "source": "Oracle Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787464794522_qye2ju",
+          "created_at": "2026-08-23T05:59:54.522Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Pandas",
+            "SQL",
+            "Machine Learning"
+          ],
+          "eligibility": "Pre-final or Final year students (2026 graduation)",
+          "deadline": "April 2026",
+          "description": "Analyze large-scale e-commerce datasets to derive actionable business insights and build predictive models. Candidates must demonstrate excellence in data cleaning using Pandas and SQL query optimization.",
+          "source": "Amazon Jobs",
+          "url": "https://www.amazon.jobs/en/teams/internships-india",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787464794522_6eh4be",
+          "created_at": "2026-08-23T05:59:54.522Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Pandas, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Pandas",
+            "SQL",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Engineering Intern (ML Platform)",
+          "organization": "Uber",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Pandas"
+          ],
+          "eligibility": "B.Tech students graduating in 2026",
+          "deadline": "March 2026",
+          "description": "Enhance Uber's internal ML platform by developing tools for feature engineering and model evaluation. Deeply involves using Pandas for data manipulation and Python for API services.",
+          "source": "Uber Careers",
+          "url": "https://www.uber.com/us/en/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹90,000 / month",
+          "id": "opp_1787464792793_347gfs",
+          "created_at": "2026-08-23T05:59:52.793Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Engineering Intern",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "eligibility": "B.Tech/Dual degree students graduating in 2026",
+          "deadline": "January 2026",
+          "description": "Build scalable data pipelines using SQL and Python for machine learning infrastructure. Focus on version control using Git to maintain code quality in a collaborative environment.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,00,000 / month",
+          "id": "opp_1787464792793_55zr9h",
+          "created_at": "2026-08-23T05:59:52.793Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Research Intern (Machine Learning)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "eligibility": "M.Tech or PhD students (Graduating 2026)",
+          "deadline": "February 2026",
+          "description": "Engage in cutting-edge research projects related to deep learning architectures and data-driven insights. Involves versioning research code using Git and implementing prototypes in Python.",
+          "source": "TCS Research Portal",
+          "url": "https://www.tcs.com/careers/tcs-research",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹40,000 / month",
+          "id": "opp_1787458503447_b5b7x8",
+          "created_at": "2026-08-23T04:15:03.447Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Engineering Intern (Data Platform)",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Git"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating 2026",
+          "deadline": "2026-02-15",
+          "description": "Improve data reliability and infrastructure tools using Python and SQL. This role involves developing internal libraries and managing code repositories through Git.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,00,000 / month",
+          "id": "opp_1787458502916_p5e3qn",
+          "created_at": "2026-08-23T04:15:02.916Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "J.P. Morgan",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "Graduating 2026 batch (B.E/B.Tech)",
+          "deadline": "2026-01-20",
+          "description": "Develop and maintain automated financial models and data processing pipelines within the corporate investment banking division. Candidates must be comfortable using Git for version control in a professional enterprise environment.",
+          "source": "J.P. Morgan Careers",
+          "url": "https://careers.jpmorgan.com/global/en/students/programs",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787416731849_bzkkry",
+          "created_at": "2026-08-22T16:38:51.849Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Applied AI Engineering Intern",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Git",
+            "PyTorch",
+            "Machine Learning"
+          ],
+          "eligibility": "Currently enrolled in B.Tech/M.Tech (2026 Grad)",
+          "deadline": "November 2025",
+          "description": "Contribute to large-scale infrastructure for model deployment. Implement robust code using Git and test PyTorch-based architectures.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/students/jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹90,000 / month",
+          "id": "opp_1787412459191_hwaqk2",
+          "created_at": "2026-08-22T15:27:39.191Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Git, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Git",
+            "PyTorch",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI Research Intern",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "GitHub"
+          ],
+          "eligibility": "B.Tech/M.Tech 2026 Batch",
+          "deadline": "February 2026",
+          "description": "Conduct applied research on generative AI and natural language processing. Contribute to open-source style research repositories via GitHub.",
+          "source": "Company Careers",
+          "url": "https://www.tcs.com/careers/research-internships",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 / month",
+          "id": "opp_1787412459191_1sxkd4",
+          "created_at": "2026-08-22T15:27:39.191Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, PyTorch, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "GitHub"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "Microsoft",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "PyTorch",
+            "SQL"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating in 2026",
+          "deadline": "December 2025",
+          "description": "Work on developing large-scale AI models and optimizing backend data pipelines. Requires strong proficiency in Python and familiarity with deep learning frameworks.",
+          "source": "Company Careers",
+          "url": "https://careers.microsoft.com",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 / month",
+          "id": "opp_1787406256437_29q64b",
+          "created_at": "2026-08-22T13:44:16.437Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "PyTorch",
+            "SQL"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Engineering Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Pandas"
+          ],
+          "eligibility": "Graduating 2026 batch",
+          "deadline": "May 2026",
+          "description": "Develop and maintain robust data pipelines that feed into Swiggy's recommendation engines. Strong emphasis on Git for collaboration and SQL for data extraction.",
+          "source": "Swiggy Careers",
+          "url": "https://careers.swiggy.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787406255761_o3frr6",
+          "created_at": "2026-08-22T13:44:15.761Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Intern",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "eligibility": "Pre-final year students (2026 grads)",
+          "deadline": "February 2026",
+          "description": "Join the Google Cloud or Search team to perform complex data analysis and build machine learning solutions. Tasks involve heavy manipulation of structured datasets using Pandas and SQL.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "Competitive Industry Standard",
+          "id": "opp_1787406255760_7clf5k",
+          "created_at": "2026-08-22T13:44:15.760Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Machine Learning Intern",
+          "organization": "Microsoft",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "PyTorch",
+            "Git"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating in 2026",
+          "deadline": "March 2026",
+          "description": "The intern will work on large-scale AI models and data processing pipelines within the Azure AI team. Responsibilities include building predictive models and maintaining version control workflows.",
+          "source": "Microsoft Careers",
+          "url": "https://careers.microsoft.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 - ₹1,00,000 / month",
+          "id": "opp_1787406255760_1rlkzi",
+          "created_at": "2026-08-22T13:44:15.760Z",
+          "matchScore": 100,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "PyTorch",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "eligibility": "B.Tech 2026 graduates or current students",
+          "deadline": "2026-05-20",
+          "description": "Build hyper-local supply chain optimization models using large-scale consumer data. The role involves continuous model deployment and versioning using Git.",
+          "source": "Zepto Careers",
+          "url": "https://careers.zeptonow.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787476440570_sspztb",
+          "created_at": "2026-08-23T09:14:00.570Z",
+          "matchScore": 99,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, SQL)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Development Intern (Data Platform)",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Pandas"
+          ],
+          "eligibility": "Students graduating in 2026",
+          "deadline": "May 2026",
+          "description": "Design and implement data pipelines to support business analytics and machine learning features. You will use SQL for database querying and Python for automation scripts.",
+          "source": "Zepto Careers",
+          "url": "https://www.zeptonow.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹40,000 / month",
+          "id": "opp_1787416730151_75ncfv",
+          "created_at": "2026-08-22T16:38:50.151Z",
+          "matchScore": 99,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Engineering Intern (ML)",
+          "organization": "Razorpay",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "GitHub"
+          ],
+          "eligibility": "Engineering students (2026 batch)",
+          "deadline": "January 2026",
+          "description": "Build scalable financial data pipelines using Python and SQL to detect fraudulent transactions. Collaborate using GitHub for code reviews and versioning.",
+          "source": "Razorpay Careers",
+          "url": "https://razorpay.com/jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787406256728_quf8hw",
+          "created_at": "2026-08-22T13:44:16.728Z",
+          "matchScore": 99,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "GitHub"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Machine Learning Engineer Intern",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "Git",
+            "PyTorch"
+          ],
+          "eligibility": "2026 Graduating Batch",
+          "deadline": "February 2026",
+          "description": "Build and iterate on recommendation algorithms for quick-commerce logistics. Must be comfortable with version control using Git and modular Python programming.",
+          "source": "Company Careers",
+          "url": "https://join.zeptonow.com",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787406256437_f6xe9u",
+          "created_at": "2026-08-22T13:44:16.437Z",
+          "matchScore": 99,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "Git",
+            "PyTorch"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Development Engineer - Intern",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "eligibility": "2026 Graduates",
+          "deadline": "March 2026",
+          "description": "Build scalable financial services and ML-based credit scoring modules. The role requires rigorous use of Git for version control and SQL for transactional data.",
+          "source": "CRED Careers",
+          "url": "https://careers.cred.club/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787406255761_bwo5e1",
+          "created_at": "2026-08-22T13:44:15.761Z",
+          "matchScore": 99,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineer Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Pandas",
+            "Machine Learning",
+            "SQL"
+          ],
+          "eligibility": "Pre-final year B.Tech/B.E. students",
+          "deadline": "2026-02-28",
+          "description": "Contribute to building predictive algorithms for logistics and user recommendation systems. The role focuses on cleaning large datasets with Pandas and deploying models using Git-based workflows.",
+          "source": "Swiggy Careers",
+          "url": "https://careers.swiggy.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787476440569_c9tor2",
+          "created_at": "2026-08-23T09:14:00.569Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Pandas, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Pandas",
+            "Machine Learning",
+            "SQL"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Pandas",
+            "SQL",
+            "Git"
+          ],
+          "eligibility": "Pre-final or final year students in Computer Science",
+          "deadline": "February 2026",
+          "description": "Collaborate with data scientists to automate data cleaning workflows using Pandas and SQL. Build robust ML models that optimize supply chain logistics and customer experience.",
+          "source": "Amazon Jobs",
+          "url": "https://www.amazon.jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787464792793_6hb85u",
+          "created_at": "2026-08-23T05:59:52.793Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Pandas, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Pandas",
+            "SQL",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Research Intern",
+          "organization": "IIT Hyderabad Research Lab",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "2026-01-20",
+          "description": "Participate in AI-driven research projects focused on computer vision or NLP. Requirements include building experimental setups using Python and maintaining research code via Git.",
+          "source": "IIT Hyderabad Project Portal",
+          "url": "https://www.iith.ac.in/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹25,000 / month",
+          "id": "opp_1787458502916_0f3qz6",
+          "created_at": "2026-08-23T04:15:02.916Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, Git)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Intern",
+          "organization": "JPMorgan Chase & Co.",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Pandas"
+          ],
+          "eligibility": "Pre-final or Final year Engineering students",
+          "deadline": "February 2026",
+          "description": "Utilize statistical analysis and machine learning techniques to provide financial insights. Interns will clean, process, and query large datasets using SQL and Python.",
+          "source": "Company Careers",
+          "url": "https://www.jpmorganchase.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787458484480_vxauuh",
+          "created_at": "2026-08-23T04:14:44.480Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Research Intern (AI & Analytics)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Pandas"
+          ],
+          "eligibility": "B.Tech/M.Tech students",
+          "deadline": "2026-04-15",
+          "description": "Conduct applied research on pattern recognition and predictive modeling for industrial IoT applications. Interns will perform heavy data manipulation using Pandas and implement ML algorithms in Python.",
+          "source": "TCS Research Portal",
+          "url": "https://www.tcs.com/careers/research-internships",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 / month",
+          "id": "opp_1787416731849_rqbjva",
+          "created_at": "2026-08-22T16:38:51.849Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "April 2026",
+          "description": "Optimize recommendation engines and demand forecasting models using Python and SQL. Maintain code quality and version control through Git throughout the development lifecycle.",
+          "source": "Swiggy Careers",
+          "url": "https://careers.swiggy.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 - ₹60,000 / month",
+          "id": "opp_1787416730151_se1s2k",
+          "created_at": "2026-08-22T16:38:50.151Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Research Intern",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "PyTorch",
+            "GitHub"
+          ],
+          "eligibility": "B.Tech Final Year / M.Tech",
+          "deadline": "January 2026",
+          "description": "Work on cutting-edge research projects in NLP or Computer Vision. Requires strong proficiency in PyTorch and maintaining experiment logs via GitHub.",
+          "source": "TCS Careers",
+          "url": "https://www.tcs.com/careers/india/internship-program",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 - ₹45,000 / month",
+          "id": "opp_1787412457846_ugbthw",
+          "created_at": "2026-08-22T15:27:37.846Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Machine Learning, Python, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Machine Learning",
+            "Python",
+            "PyTorch",
+            "GitHub"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Graduate Research Intern",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "SQL"
+          ],
+          "eligibility": "Final year B.Tech or M.Tech students",
+          "deadline": "April 2026",
+          "description": "Engage in cutting-edge research in deep learning and natural language processing. Contribute to academic papers and internal research proofs-of-concept.",
+          "source": "TCS Careers",
+          "url": "https://www.tcs.com/careers/research-internship",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 / month",
+          "id": "opp_1787406256728_om14bm",
+          "created_at": "2026-08-22T13:44:16.728Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, PyTorch, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "SQL"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Science Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "eligibility": "Pre-final year B.Tech/B.E students",
+          "deadline": "January 2026",
+          "description": "Analyze consumer behavior data using SQL and Pandas to build predictive models. You will be responsible for deploying models into production environments.",
+          "source": "Company Careers",
+          "url": "https://careers.swiggy.com",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787406256437_fg738o",
+          "created_at": "2026-08-22T13:44:16.437Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Research Intern (AI/ML)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "M.Tech or Final Year B.Tech students",
+          "deadline": "June 2026",
+          "description": "Work on state-of-the-art generative models and computer vision research. Candidates are expected to contribute to open-source libraries and document progress via GitHub.",
+          "source": "TCS Research Portal",
+          "url": "https://www.tcs.com/careers/tcs-research",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹30,000 - ₹40,000 / month",
+          "id": "opp_1787406255761_1v4723",
+          "created_at": "2026-08-22T13:44:15.761Z",
+          "matchScore": 95,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, PyTorch, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Engineer (ML focus)",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "eligibility": "B.Tech students (Final Year)",
+          "deadline": "April 2026",
+          "description": "Build tools for quick-commerce automation and data insights. Involves writing efficient SQL queries and deploying ML models using Python.",
+          "source": "Zepto Careers",
+          "url": "https://www.zeptonow.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787476457702_0j0ame",
+          "created_at": "2026-08-23T09:14:17.702Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI Engineering Intern",
+          "organization": "Razorpay",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "eligibility": "B.Tech 3rd/4th year",
+          "deadline": "February 2026",
+          "description": "Build fraud detection algorithms and financial transaction scoring models. Strong focus on SQL querying and building end-to-end ML pipelines.",
+          "source": "Razorpay Careers",
+          "url": "https://razorpay.com/jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787476457283_0qkez9",
+          "created_at": "2026-08-23T09:14:17.283Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, SQL)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Engineering Intern",
+          "organization": "Razorpay",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "SQL",
+            "Python",
+            "Pandas",
+            "Git"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "2026-04-15",
+          "description": "Develop and maintain robust ETL pipelines to support financial data analytics. You will use SQL for database management and Python scripts to automate data validation.",
+          "source": "Razorpay Careers",
+          "url": "https://razorpay.com/jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787476440569_3no8tu",
+          "created_at": "2026-08-23T09:14:00.569Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (SQL, Python, Pandas)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "SQL",
+            "Python",
+            "Pandas",
+            "Git"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Engineering Intern",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "SQL",
+            "Python",
+            "Git",
+            "Pandas"
+          ],
+          "eligibility": "3rd or 4th year B.Tech students",
+          "deadline": "April 2026",
+          "description": "Design and maintain data models to support financial analytics and product features. The role involves utilizing SQL for complex queries and Python/Pandas for data processing tasks.",
+          "source": "CRED Careers",
+          "url": "https://careers.cred.club/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787458503447_vhdrb7",
+          "created_at": "2026-08-23T04:15:03.447Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (SQL, Python, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "SQL",
+            "Python",
+            "Git",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Backend Engineering Intern",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "GitHub"
+          ],
+          "eligibility": "3rd/4th year engineering students",
+          "deadline": "March 2026",
+          "description": "Work on backend services that power financial data processing. Requires extensive use of SQL for database management and Python for API development.",
+          "source": "CRED Careers",
+          "url": "https://careers.cred.club/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787412457846_e64a2z",
+          "created_at": "2026-08-22T15:27:37.846Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "GitHub"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Development Intern (ML Ops)",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "eligibility": "Final year B.Tech students",
+          "deadline": "April 2026",
+          "description": "Assist in deploying machine learning models into production environments. Focus on version control using Git and managing model performance metrics.",
+          "source": "Zepto Careers",
+          "url": "https://www.zeptonow.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹40,000 / month",
+          "id": "opp_1787412457846_me8dbv",
+          "created_at": "2026-08-22T15:27:37.846Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Software Engineering Intern (Data Platform)",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Pandas"
+          ],
+          "eligibility": "B.Tech 3rd/4th year",
+          "deadline": "February 2026",
+          "description": "Build high-performance data pipelines to support fintech transaction analytics. You will use SQL for database manipulation and Pandas for data-intensive processing.",
+          "source": "Company Careers",
+          "url": "https://careers.cred.club/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787406274884_xi29c3",
+          "created_at": "2026-08-22T13:44:34.884Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Pandas"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "GitHub",
+            "Machine Learning"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "April 2026",
+          "description": "Assist the supply chain team in optimizing delivery times using ML algorithms. You will work on feature engineering and database management using SQL and Python.",
+          "source": "Zepto Careers",
+          "url": "https://www.zeptonow.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787406255761_e4642t",
+          "created_at": "2026-08-22T13:44:15.761Z",
+          "matchScore": 94,
+          "breakdown": {
+            "skillsScore": 40,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, GitHub)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "GitHub",
+            "Machine Learning"
+          ],
+          "missingSkills": []
+        },
+        {
+          "title": "Data Engineering Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "SQL",
+            "Python",
+            "Docker",
+            "Pandas"
+          ],
+          "eligibility": "B.Tech students (2026 batch)",
+          "deadline": "2026-05-01",
+          "description": "Architect data pipelines and database solutions for cloud products. Emphasizes Docker for environment consistency and SQL for data management.",
+          "source": "Company Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787764685321_r6gnzi",
+          "created_at": "2026-08-26T17:18:05.321Z",
+          "matchScore": 90,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (SQL, Python, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Docker"
+          ],
+          "matchedSkills": [
+            "SQL",
+            "Python",
+            "Pandas"
+          ],
+          "missingSkills": [
+            "Docker"
+          ]
+        },
+        {
+          "title": "Machine Learning Engineering Intern",
+          "organization": "Microsoft",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "DSA"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating in 2026",
+          "deadline": "2026-03-31",
+          "description": "Develop and deploy scalable ML models for Azure services. Involves high-performance data processing and backend integration.",
+          "source": "Company Careers",
+          "url": "https://careers.microsoft.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 - ₹1,00,000 / month",
+          "id": "opp_1787764685321_10jvzq",
+          "created_at": "2026-08-26T17:18:05.321Z",
+          "matchScore": 90,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: DSA"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "DSA"
+          ]
+        },
+        {
+          "title": "Machine Learning Research Intern",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Mathematics"
+          ],
+          "eligibility": "M.Tech/PhD students (2026 graduation)",
+          "deadline": "June 2026",
+          "description": "Engage in cutting-edge research regarding predictive modeling and data intelligence. Requires deep expertise in Python for experimentation and SQL for experimental data management.",
+          "source": "Company Careers",
+          "url": "https://www.tcs.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787458484480_fe2518",
+          "created_at": "2026-08-23T04:14:44.480Z",
+          "matchScore": 90,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Mathematics"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "Mathematics"
+          ]
+        },
+        {
+          "title": "Applied Scientist Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Statistics"
+          ],
+          "eligibility": "B.Tech/M.Tech/PhD students (Graduating 2026)",
+          "deadline": "February 2026",
+          "description": "Build, test, and deploy ML models that directly influence retail and supply chain decision-making systems. This role demands high proficiency in Python for algorithm development and SQL for data extraction.",
+          "source": "Amazon Jobs",
+          "url": "https://amazon.jobs/en/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,00,000 / month",
+          "id": "opp_1787458483719_ngeo9f",
+          "created_at": "2026-08-23T04:14:43.719Z",
+          "matchScore": 90,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Statistics"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "Statistics"
+          ]
+        },
+        {
+          "title": "MLOps Engineering Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Docker",
+            "Machine Learning",
+            "Git"
+          ],
+          "eligibility": "B.Tech/M.Tech (Graduating 2026)",
+          "deadline": "2026-02-15",
+          "description": "Automate ML model deployment cycles and build monitoring tools. Essential focus on Python automation and Dockerized pipelines.",
+          "source": "Company Careers",
+          "url": "https://careers.swiggy.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787764685321_qtwmdq",
+          "created_at": "2026-08-26T17:18:05.321Z",
+          "matchScore": 89,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, Machine Learning, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Docker"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "Git"
+          ],
+          "missingSkills": [
+            "Docker"
+          ]
+        },
+        {
+          "id": "opp_aiml_hyd_02",
+          "title": "Data Science & Analytics Intern",
+          "organization": "Microsoft R&D India",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning",
+            "PowerBI",
+            "Data Visualization"
+          ],
+          "eligibility": "Pre-final / 2nd-3rd year engineering students with strong analytical skills",
+          "deadline": "2026-10-15",
+          "description": "Analyze telemetry and user behavior across Azure Cloud products. Build predictive models and automated dashboards for product leaders.",
+          "source": "Microsoft University Recruiting India",
+          "url": "https://careers.microsoft.com/students/india",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹50,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 87,
+          "breakdown": {
+            "skillsScore": 27,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Pandas)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: PowerBI, Data Visualization"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "PowerBI",
+            "Data Visualization"
+          ]
+        },
+        {
+          "title": "AI/ML Engineering Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Deep Learning"
+          ],
+          "eligibility": "B.Tech 3rd/4th year",
+          "deadline": "April 2026",
+          "description": "Build automated ML solutions for cloud infrastructure optimization. Responsibilities include writing high-performance Python code and managing data retrieval via SQL.",
+          "source": "Company Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787458484480_k7tbq9",
+          "created_at": "2026-08-23T04:14:44.480Z",
+          "matchScore": 85,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Deep Learning"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "Deep Learning"
+          ]
+        },
+        {
+          "title": "Backend Engineering Intern",
+          "organization": "Razorpay",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Docker",
+            "Git"
+          ],
+          "eligibility": "3rd or 4th year B.Tech students",
+          "deadline": "2026-01-15",
+          "description": "Build high-throughput payment processing APIs and data services. Experience with Docker for deployment and SQL for database management is essential.",
+          "source": "Company Careers",
+          "url": "https://razorpay.com/jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 / month",
+          "id": "opp_1787764685612_t1ele5",
+          "created_at": "2026-08-26T17:18:05.612Z",
+          "matchScore": 84,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Docker"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Git"
+          ],
+          "missingSkills": [
+            "Docker"
+          ]
+        },
+        {
+          "title": "Data Engineer Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "ETL"
+          ],
+          "eligibility": "B.Tech 3rd/4th year",
+          "deadline": "January 2026",
+          "description": "Focus on data pipeline engineering to support ML features on the Swiggy platform. You will write complex SQL queries for feature engineering and Python scripts for data cleaning.",
+          "source": "Company Careers",
+          "url": "https://careers.swiggy.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹40,000 / month",
+          "id": "opp_1787458484480_tqarv4",
+          "created_at": "2026-08-23T04:14:44.480Z",
+          "matchScore": 84,
+          "breakdown": {
+            "skillsScore": 30,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Strong overlap in core skills (Python, SQL, Machine Learning)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: ETL"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "ETL"
+          ]
+        },
+        {
+          "title": "Machine Learning & Generative AI Intern",
+          "organization": "Flipkart Tech Labs",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": true,
+          "skills": [
+            "Python",
+            "SQL",
+            "PyTorch",
+            "Vector DBs",
+            "FastAPI"
+          ],
+          "eligibility": "2nd / 3rd / 4th Year B.Tech students in CSE/AI/Data Science",
+          "deadline": "2026-10-15",
+          "description": "Develop multi-modal product search and customer intent embeddings for Flipkart e-commerce platform at scale.",
+          "source": "Flipkart Careers (Live Web)",
+          "url": "https://www.flipkartcareers.com",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 / month",
+          "id": "opp_1787402152088_zy4pck",
+          "created_at": "2026-08-22T12:35:52.088Z",
+          "matchScore": 84,
+          "breakdown": {
+            "skillsScore": 24,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, SQL, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Vector DBs, FastAPI"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL",
+            "PyTorch"
+          ],
+          "missingSkills": [
+            "Vector DBs",
+            "FastAPI"
+          ]
+        },
+        {
+          "id": "opp_aiml_hyd_01",
+          "title": "AI/ML Research Intern",
+          "organization": "CognitiveScale Labs India",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "TensorFlow",
+            "SQL",
+            "Docker"
+          ],
+          "eligibility": "B.Tech / M.Tech 2nd, 3rd, or 4th year in CSE/AI/Data Science",
+          "deadline": "2026-09-30",
+          "description": "Work on productionizing computer vision & tabular ML pipelines for enterprise decision intelligence. Mentored by senior research scientists.",
+          "source": "CognitiveScale Careers Hub",
+          "url": "https://cognitivescale.com/careers/india-interns",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹35,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 84,
+          "breakdown": {
+            "skillsScore": 24,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, Machine Learning, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: TensorFlow, Docker"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL"
+          ],
+          "missingSkills": [
+            "TensorFlow",
+            "Docker"
+          ]
+        },
+        {
+          "id": "opp_aiml_hyd_04",
+          "title": "Applied Deep Learning Fellow",
+          "organization": "IIIT Hyderabad — Center for Visual Information Tech (CVIT)",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": true,
+          "skills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning",
+            "Deep Learning",
+            "Linear Algebra"
+          ],
+          "eligibility": "Undergraduate students (1st, 2nd, 3rd year) with strong mathematical foundation",
+          "deadline": "2026-10-01",
+          "description": "Conduct funded academic research under faculty guidance on multi-modal foundation models and low-resource Indic language NLP.",
+          "source": "IIIT-H CVIT Summer/Autumn Research Internship",
+          "url": "https://cvit.iiit.ac.in/admissions/internships",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹25,000 / month + Publication Grant",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 84,
+          "breakdown": {
+            "skillsScore": 24,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, PyTorch, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Deep Learning, Linear Algebra"
+          ],
+          "matchedSkills": [
+            "Python",
+            "PyTorch",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "Deep Learning",
+            "Linear Algebra"
+          ]
+        },
+        {
+          "id": "opp_aiml_hyd_03",
+          "title": "Machine Learning Engineering Intern",
+          "organization": "Swiggy Tech Labs",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "PyTorch",
+            "TensorFlow",
+            "FastAPI",
+            "Algorithms"
+          ],
+          "eligibility": "Engineering undergraduates (2nd, 3rd, or 4th year) with proven Python proficiency",
+          "deadline": "2026-09-20",
+          "description": "Build real-time delivery routing optimization, recommendation ranking engines, and demand prediction systems handling millions of orders.",
+          "source": "Swiggy Careers Portal",
+          "url": "https://bytes.swiggy.com/careers",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹40,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 80,
+          "breakdown": {
+            "skillsScore": 20,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, Machine Learning, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: TensorFlow, FastAPI"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "PyTorch"
+          ],
+          "missingSkills": [
+            "TensorFlow",
+            "FastAPI",
+            "Algorithms"
+          ]
+        },
+        {
+          "title": "Deep Learning & Multimodal Foundation Model Fellow",
+          "organization": "TCS Research & Innovation Labs",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": true,
+          "skills": [
+            "Python",
+            "PyTorch",
+            "Deep Learning",
+            "Transformers",
+            "Mathematics"
+          ],
+          "eligibility": "Pre-final & final year engineering undergraduates with research aptitude",
+          "deadline": "2026-10-25",
+          "description": "Conduct funded research on edge-optimized vision-language models for smart manufacturing and healthcare.",
+          "source": "TCS Research Fellows Program",
+          "url": "https://www.tcs.com/careers/research-internships",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹40,000 / month + Conference Grant",
+          "id": "opp_1787402152088_o0py4y",
+          "created_at": "2026-08-22T12:35:52.088Z",
+          "matchScore": 76,
+          "breakdown": {
+            "skillsScore": 16,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, PyTorch)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Deep Learning, Transformers"
+          ],
+          "matchedSkills": [
+            "Python",
+            "PyTorch"
+          ],
+          "missingSkills": [
+            "Deep Learning",
+            "Transformers",
+            "Mathematics"
+          ]
+        },
+        {
+          "title": "Software Development Engineer Intern (Data & AI)",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "Python",
+            "SQL",
+            "DSA"
+          ],
+          "eligibility": "Pre-final year B.Tech/B.E. students",
+          "deadline": "2026-01-30",
+          "description": "Build robust backend services and data processing tools to support large-scale AI applications. Candidates must demonstrate deep knowledge of data structures and complex SQL queries.",
+          "source": "Company Careers",
+          "url": "https://www.amazon.jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787764685612_8awvds",
+          "created_at": "2026-08-26T17:18:05.612Z",
+          "matchScore": 75,
+          "breakdown": {
+            "skillsScore": 20,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, DSA"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL"
+          ],
+          "missingSkills": [
+            "Java",
+            "DSA"
+          ]
+        },
+        {
+          "title": "Research Intern (AI & Data Science)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "SQL",
+            "Deep Learning",
+            "NLP"
+          ],
+          "eligibility": "3rd or 4th Year B.Tech/M.Tech students",
+          "deadline": "January 2026",
+          "description": "Engage in cutting-edge research projects focusing on natural language processing and computer vision applications. You will conduct experiments using Python and manage research datasets via SQL.",
+          "source": "TCS Research Careers",
+          "url": "https://www.tcs.com/careers/tcs-research",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 / month",
+          "id": "opp_1787458483719_4xhzs0",
+          "created_at": "2026-08-23T04:14:43.719Z",
+          "matchScore": 75,
+          "breakdown": {
+            "skillsScore": 20,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Deep Learning, NLP"
+          ],
+          "matchedSkills": [
+            "Python",
+            "SQL"
+          ],
+          "missingSkills": [
+            "Deep Learning",
+            "NLP"
+          ]
+        },
+        {
+          "id": "opp_aiml_blr_05",
+          "title": "Junior AI Engineer (Generative AI)",
+          "organization": "Sarvam AI",
+          "type": "Internship",
+          "location": "Bengaluru",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "LLMs",
+            "Transformers",
+            "FastAPI"
+          ],
+          "eligibility": "B.Tech/BE in CS/IT/AI (2nd-4th year) with experience in GenAI libraries",
+          "deadline": "2026-09-25",
+          "description": "Contribute to state-of-the-art voice and multilingual LLMs designed specifically for Indian languages.",
+          "source": "Sarvam AI Careers",
+          "url": "https://sarvam.ai/careers",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹45,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 75,
+          "breakdown": {
+            "skillsScore": 16,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, Machine Learning)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: LLMs, Transformers"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "LLMs",
+            "Transformers",
+            "FastAPI"
+          ]
+        },
+        {
+          "id": "opp_aiml_hyd_08",
+          "title": "NLP & Voice Intelligence Intern",
+          "organization": "Verloop.io",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "NLP",
+            "NLTK",
+            "HuggingFace",
+            "SQL"
+          ],
+          "eligibility": "Undergrads in CSE / AI / ECE with knowledge of conversational AI",
+          "deadline": "2026-09-18",
+          "description": "Build intent classification and dialogue management modules for conversational automation engines.",
+          "source": "Verloop.io Careers",
+          "url": "https://verloop.io/careers",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹32,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 75,
+          "breakdown": {
+            "skillsScore": 20,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, Machine Learning, SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: NLP, NLTK"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning",
+            "SQL"
+          ],
+          "missingSkills": [
+            "NLP",
+            "NLTK",
+            "HuggingFace"
+          ]
+        },
+        {
+          "title": "Cloud Infrastructure & Platform Engineer Intern",
+          "organization": "Atlassian India",
+          "type": "Internship",
+          "location": "Bengaluru",
+          "remote": true,
+          "skills": [
+            "Python",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "Linux",
+            "Git"
+          ],
+          "eligibility": "2nd, 3rd, or 4th year engineering students",
+          "deadline": "2026-10-18",
+          "description": "Automate developer tooling, cloud microservice deployment pipelines, and observability metrics across Jira and Confluence.",
+          "source": "Atlassian University Portal",
+          "url": "https://www.atlassian.com/company/careers/students",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787402152088_hczjh6",
+          "created_at": "2026-08-22T12:35:52.088Z",
+          "matchScore": 72,
+          "breakdown": {
+            "skillsScore": 13,
+            "eligibilityScore": 25,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, Git)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Docker, Kubernetes"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Git"
+          ],
+          "missingSkills": [
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "Linux"
+          ]
+        },
+        {
+          "id": "opp_aiml_hyd_07",
+          "title": "Computer Vision & Robotics Intern",
+          "organization": "T-Hub Innovation Center",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Python",
+            "OpenCV",
+            "Machine Learning",
+            "ROS",
+            "C++"
+          ],
+          "eligibility": "Students pursuing B.Tech in Robotics, AI, CSE, or ECE",
+          "deadline": "2026-11-01",
+          "description": "Work with emerging deep-tech startups within Asia’s largest innovation hub on autonomous drones and industrial robotics.",
+          "source": "T-Hub Ecosystem Talent Portal",
+          "url": "https://t-hub.co/careers",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹28,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 71,
+          "breakdown": {
+            "skillsScore": 16,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python, Machine Learning)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: OpenCV, ROS"
+          ],
+          "matchedSkills": [
+            "Python",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "OpenCV",
+            "ROS",
+            "C++"
+          ]
+        },
+        {
+          "title": "Backend Engineering Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "DSA",
+            "Web Services",
+            "SQL"
+          ],
+          "eligibility": "Pre-final year students (2026 Batch)",
+          "deadline": "Rolling",
+          "description": "Interns contribute to the development of highly available e-commerce services and cloud infrastructure. The role involves optimizing existing algorithms for performance and latency.",
+          "source": "Amazon Jobs",
+          "url": "https://www.amazon.jobs/en/jobs/2653245",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹70,000 - ₹90,000 / month",
+          "id": "opp_1787466743485_le6q1q",
+          "created_at": "2026-08-23T06:32:23.485Z",
+          "matchScore": 70,
+          "breakdown": {
+            "skillsScore": 10,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, DSA"
+          ],
+          "matchedSkills": [
+            "SQL"
+          ],
+          "missingSkills": [
+            "Java",
+            "DSA",
+            "Web Services"
+          ]
+        },
+        {
+          "id": "opp_web_hyd_06",
+          "title": "Full Stack Web Development Intern",
+          "organization": "Darwinbox",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "SQL",
+            "REST APIs"
+          ],
+          "eligibility": "2nd/3rd/4th year engineering students",
+          "deadline": "2026-10-10",
+          "description": "Develop enterprise-grade cloud HRMS features, responsive web components, and optimized microservices.",
+          "source": "Darwinbox Careers",
+          "url": "https://darwinbox.com/careers",
+          "source_type": "CURATED_DATASET",
+          "stipend_or_salary": "₹30,000 / month",
+          "created_at": "2026-08-22T12:07:06.893Z",
+          "matchScore": 68,
+          "breakdown": {
+            "skillsScore": 8,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: React, TypeScript"
+          ],
+          "matchedSkills": [
+            "SQL"
+          ],
+          "missingSkills": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "REST APIs"
+          ]
+        },
+        {
+          "title": "Software Development Engineer (SDE) Intern - AI Platform",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "Python",
+            "DSA",
+            "Docker"
+          ],
+          "eligibility": "Pre-final year B.Tech/B.E",
+          "deadline": "2026-04-15",
+          "description": "Build distributed systems for internal ML tools using Java and Python. Focuses on containerization and efficient algorithmic implementation.",
+          "source": "Company Careers",
+          "url": "https://www.amazon.jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 / month",
+          "id": "opp_1787764685321_1x7b1o",
+          "created_at": "2026-08-26T17:18:05.321Z",
+          "matchScore": 65,
+          "breakdown": {
+            "skillsScore": 10,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (Python)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, DSA"
+          ],
+          "matchedSkills": [
+            "Python"
+          ],
+          "missingSkills": [
+            "Java",
+            "DSA",
+            "Docker"
+          ]
+        },
+        {
+          "title": "Software Engineer Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "C++",
+            "SQL",
+            "Web Development"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "February 2026",
+          "description": "Contribute to enterprise database solutions and cloud application development. Involves working with large-scale Java backend systems.",
+          "source": "Company Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 - ₹75,000 / month",
+          "id": "opp_1787466725575_j0r6tj",
+          "created_at": "2026-08-23T06:32:05.575Z",
+          "matchScore": 65,
+          "breakdown": {
+            "skillsScore": 10,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (SQL)",
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, C++"
+          ],
+          "matchedSkills": [
+            "SQL"
+          ],
+          "missingSkills": [
+            "Java",
+            "C++",
+            "Web Development"
+          ]
+        },
+        {
+          "title": "Full Stack Engineering Intern",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "SQL"
+          ],
+          "eligibility": "3rd/4th year B.Tech students",
+          "deadline": "February 2026",
+          "description": "Contribute to building high-quality web applications and backend services with a focus on user experience and performance. Requires strong proficiency in Java frameworks and algorithmic efficiency.",
+          "source": "CRED Careers",
+          "url": "https://cred.club/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹75,000 / month",
+          "id": "opp_1787467378918_ayb2ub",
+          "created_at": "2026-08-23T06:42:58.918Z",
+          "matchScore": 64,
+          "breakdown": {
+            "skillsScore": 10,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Matches essential baseline skills (SQL)",
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, Web Development"
+          ],
+          "matchedSkills": [
+            "SQL"
+          ],
+          "missingSkills": [
+            "Java",
+            "Web Development",
+            "DSA"
+          ]
+        },
+        {
+          "title": "Software Development Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "C++",
+            "DSA",
+            "Web Development"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating in 2026",
+          "deadline": "2026-02-28",
+          "description": "Contribute to e-commerce platform services and internal developer tools. Candidates are evaluated on problem-solving speed and coding patterns.",
+          "source": "Amazon Jobs",
+          "url": "https://www.amazon.jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹70,000 - ₹90,000 / month",
+          "id": "opp_1787467378822_oubd79",
+          "created_at": "2026-08-23T06:42:58.822Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, C++"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "C++",
+            "DSA",
+            "Web Development"
+          ]
+        },
+        {
+          "title": "Software Development Engineer Intern",
+          "organization": "Microsoft",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Data Structures"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating in 2026",
+          "deadline": "2025-12-31",
+          "description": "Work on core cloud infrastructure and distributed systems. Requires strong proficiency in algorithms and systems programming.",
+          "source": "Microsoft Careers",
+          "url": "https://careers.microsoft.com",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 - ₹1,00,000 / month",
+          "id": "opp_1787467378822_oxzmj0",
+          "created_at": "2026-08-23T06:42:58.822Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Data Structures"
+          ]
+        },
+        {
+          "title": "Technical Intern",
+          "organization": "Google",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Distributed Systems"
+          ],
+          "eligibility": "Students graduating in 2026",
+          "deadline": "2026-02-15",
+          "description": "Collaborate on search and cloud infrastructure projects with global engineering teams. Requires a deep understanding of data structures and efficient implementation in C++ or Java.",
+          "source": "Google Careers",
+          "url": "https://careers.google.com/students/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,00,000+ / month",
+          "id": "opp_1787466743485_exhagm",
+          "created_at": "2026-08-23T06:32:23.485Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Distributed Systems"
+          ]
+        },
+        {
+          "title": "Summer Internship Program",
+          "organization": "Qualcomm",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Embedded Systems",
+            "DSA",
+            "Java"
+          ],
+          "eligibility": "B.Tech/M.Tech graduating in 2026",
+          "deadline": "2026-03-01",
+          "description": "Interns will work on wireless communication protocols and software drivers for mobile platforms. Work involves extensive C++ coding and algorithmic optimization for high-performance hardware.",
+          "source": "Qualcomm Careers",
+          "url": "https://www.qualcomm.com/company/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 - ₹80,000 / month",
+          "id": "opp_1787466743485_sj022t",
+          "created_at": "2026-08-23T06:32:23.485Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Embedded Systems"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Embedded Systems",
+            "DSA",
+            "Java"
+          ]
+        },
+        {
+          "title": "Full Stack Engineering Intern",
+          "organization": "J.P. Morgan Chase",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "React"
+          ],
+          "eligibility": "B.Tech 2026 graduates",
+          "deadline": "February 2026",
+          "description": "Develop and maintain banking applications using Java-based backends and modern web frontends. Focus is on secure code, API development, and data structure optimization.",
+          "source": "JPMC Careers",
+          "url": "https://www.jpmorganchase.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 - ₹80,000 / month",
+          "id": "opp_1787466702315_fsfijj",
+          "created_at": "2026-08-23T06:31:42.315Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, Web Development"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "React"
+          ]
+        },
+        {
+          "title": "Backend Engineering Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "C++",
+            "DSA",
+            "Web Services"
+          ],
+          "eligibility": "B.Tech/M.Tech graduating 2026",
+          "deadline": "April 2026",
+          "description": "Design and optimize high-performance database management tools and cloud applications. Candidates must demonstrate deep knowledge of algorithmic efficiency and JVM/C++ memory management.",
+          "source": "Oracle Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 - ₹70,000 / month",
+          "id": "opp_1787466702315_7frrup",
+          "created_at": "2026-08-23T06:31:42.315Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, C++"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "C++",
+            "DSA",
+            "Web Services"
+          ]
+        },
+        {
+          "title": "Backend Engineering Intern",
+          "organization": "Swiggy",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "Microservices"
+          ],
+          "eligibility": "B.Tech students graduating 2026",
+          "deadline": "April 2026",
+          "description": "Contribute to high-traffic food delivery backend systems and API development. Focuses on Java-based microservices and web application scaling.",
+          "source": "Swiggy Careers",
+          "url": "https://careers.swiggy.com/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 - ₹70,000 / month",
+          "id": "opp_1787466702041_oljq90",
+          "created_at": "2026-08-23T06:31:42.041Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, Web Development"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "Microservices"
+          ]
+        },
+        {
+          "title": "Software Engineering Intern",
+          "organization": "Microsoft",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Java",
+            "DSA",
+            "System Design"
+          ],
+          "eligibility": "B.Tech/M.Tech students graduating in 2026",
+          "deadline": "March 2026",
+          "description": "Work on core cloud infrastructure and distributed systems. Requires strong proficiency in algorithms and data structures.",
+          "source": "Microsoft Careers",
+          "url": "https://careers.microsoft.com/students",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 - ₹1,00,000 / month",
+          "id": "opp_1787466702041_wfy2y5",
+          "created_at": "2026-08-23T06:31:42.041Z",
+          "matchScore": 60,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 25,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Java",
+            "DSA",
+            "System Design"
+          ]
+        },
+        {
+          "title": "Research Intern (Computing)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "DSA",
+            "Mathematics",
+            "Java"
+          ],
+          "eligibility": "Pre-final year students (B.Tech/M.Tech)",
+          "deadline": "April 2026",
+          "description": "Work on advanced research projects involving computational models and performance optimization. Requires a strong background in data structures and C++ for simulation development.",
+          "source": "TCS Research Portal",
+          "url": "https://www.tcs.com/careers/tcs-research",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787467378918_rbar7f",
+          "created_at": "2026-08-23T06:42:58.918Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, DSA"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "DSA",
+            "Mathematics",
+            "Java"
+          ]
+        },
+        {
+          "title": "Technical Intern",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Research"
+          ],
+          "eligibility": "Pre-final/Final year Engineering students",
+          "deadline": "2026-01-20",
+          "description": "Collaborate with research teams on algorithmic efficiency and data-intensive computing projects. Requires high level of mastery in C++ or Java.",
+          "source": "TCS Careers",
+          "url": "https://www.tcs.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹35,000 - ₹45,000 / month",
+          "id": "opp_1787467378822_c8i7iw",
+          "created_at": "2026-08-23T06:42:58.822Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Research"
+          ]
+        },
+        {
+          "title": "Engineering Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Cloud"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "2026-01-15",
+          "description": "Develop and maintain database technologies and cloud software components. Requires deep understanding of memory management and C++.",
+          "source": "Oracle Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 - ₹70,000 / month",
+          "id": "opp_1787467378822_s3sop3",
+          "created_at": "2026-08-23T06:42:58.822Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Cloud"
+          ]
+        },
+        {
+          "title": "Software Development Intern",
+          "organization": "Oracle",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "C++",
+            "Database Management",
+            "DSA"
+          ],
+          "eligibility": "3rd/4th Year B.Tech students",
+          "deadline": "Rolling",
+          "description": "Focuses on the development and maintenance of Oracle Database kernels and cloud applications. Candidates work on memory management and core data structure implementations.",
+          "source": "Oracle Careers",
+          "url": "https://www.oracle.com/corporate/careers/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹50,000 - ₹70,000 / month",
+          "id": "opp_1787466743485_opoewa",
+          "created_at": "2026-08-23T06:32:23.485Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, C++"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "C++",
+            "Database Management",
+            "DSA"
+          ]
+        },
+        {
+          "title": "Engineering Intern - Platform",
+          "organization": "DE Shaw",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Linux"
+          ],
+          "eligibility": "Pre-final or final year B.Tech/B.E students",
+          "deadline": "January 2026",
+          "description": "Work on high-frequency trading platforms and internal tools requiring extreme latency optimization. Requires expert-level knowledge of C++ and complex data structures.",
+          "source": "DE Shaw Careers",
+          "url": "https://www.deshawindia.com/recruitments",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,50,000 / month",
+          "id": "opp_1787466702315_riy6m8",
+          "created_at": "2026-08-23T06:31:42.315Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "Java",
+            "DSA",
+            "Linux"
+          ]
+        },
+        {
+          "title": "Research Intern (Systems)",
+          "organization": "TCS Research",
+          "type": "Research",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "DSA",
+            "Research",
+            "Performance Tuning"
+          ],
+          "eligibility": "B.Tech/M.Tech students (Pre-final/Final year)",
+          "deadline": "Continuous",
+          "description": "Participate in applied research for system-level performance tuning and algorithm optimization. Candidates work on high-impact technical papers and prototypes.",
+          "source": "TCS Research Portal",
+          "url": "https://www.tcs.com/careers/tcs-research",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹30,000 - ₹50,000 / month",
+          "id": "opp_1787466702041_e1a61o",
+          "created_at": "2026-08-23T06:31:42.041Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, DSA"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "DSA",
+            "Research",
+            "Performance Tuning"
+          ]
+        },
+        {
+          "title": "Software Development Engineer Intern",
+          "organization": "Amazon",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "Java",
+            "DSA",
+            "Problem Solving",
+            "Object-Oriented Design"
+          ],
+          "eligibility": "Pre-final year B.Tech/B.E. students",
+          "deadline": "February 2026",
+          "description": "Design and implement scalable web services and backend components. Strong focus on algorithmic efficiency and code quality.",
+          "source": "Amazon Jobs",
+          "url": "https://amazon.jobs/en/jobs/2026-sde-intern",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹70,000 - ₹90,000 / month",
+          "id": "opp_1787466702041_igqyy1",
+          "created_at": "2026-08-23T06:31:42.041Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, DSA"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "DSA",
+            "Problem Solving",
+            "Object-Oriented Design"
+          ]
+        },
+        {
+          "title": "Software Engineering Intern",
+          "organization": "DE Shaw",
+          "type": "Internship",
+          "location": "Hyderabad",
+          "remote": false,
+          "skills": [
+            "C++",
+            "DSA",
+            "Java",
+            "Mathematics"
+          ],
+          "eligibility": "B.Tech/Dual degree 3rd year students",
+          "deadline": "January 2026",
+          "description": "Develop high-performance trading platforms and analytical software. Involves complex C++ optimization tasks and advanced data structures.",
+          "source": "DE Shaw Careers",
+          "url": "https://www.deshawindia.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹1,25,000 / month",
+          "id": "opp_1787466702041_7i4al1",
+          "created_at": "2026-08-23T06:31:42.041Z",
+          "matchScore": 55,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 15,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Located directly in your target city (Hyderabad)",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: C++, DSA"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "C++",
+            "DSA",
+            "Java",
+            "Mathematics"
+          ]
+        },
+        {
+          "title": "Full Stack Developer Intern",
+          "organization": "Razorpay",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "React"
+          ],
+          "eligibility": "B.Tech students with strong portfolio",
+          "deadline": "2026-02-15",
+          "description": "Work on payment gateway integration and dashboard UI components. Strong focus on building scalable web interfaces using Java/Spring backend.",
+          "source": "Razorpay Careers",
+          "url": "https://razorpay.com/jobs/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹45,000 / month",
+          "id": "opp_1787467378822_dwqide",
+          "created_at": "2026-08-23T06:42:58.822Z",
+          "matchScore": 54,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, Web Development"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "React"
+          ]
+        },
+        {
+          "title": "Software Engineering Intern (Backend)",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "Microservices"
+          ],
+          "eligibility": "Final/Pre-final year students",
+          "deadline": "Rolling",
+          "description": "Work on the backend infrastructure of a high-growth fintech platform using Java and modern web frameworks. Role involves solving scale-related challenges and building robust APIs.",
+          "source": "CRED Careers",
+          "url": "https://careers.cred.club/",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹60,000 - ₹75,000 / month",
+          "id": "opp_1787466743485_4rs72d",
+          "created_at": "2026-08-23T06:32:23.485Z",
+          "matchScore": 54,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, Web Development"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "Microservices"
+          ]
+        },
+        {
+          "title": "Software Developer Intern",
+          "organization": "CRED",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "API Design"
+          ],
+          "eligibility": "B.Tech 3rd/4th year students",
+          "deadline": "February 2026",
+          "description": "Build scalable financial technology products with a focus on clean code and robust web architecture. Frequent usage of Java and complex data structures.",
+          "source": "Company Careers",
+          "url": "https://cred.club/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹80,000 / month",
+          "id": "opp_1787466725575_1vykf2",
+          "created_at": "2026-08-23T06:32:05.575Z",
+          "matchScore": 54,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Java, Web Development"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Java",
+            "Web Development",
+            "DSA",
+            "API Design"
+          ]
+        },
+        {
+          "title": "Full Stack Developer Intern",
+          "organization": "Zepto",
+          "type": "Internship",
+          "location": "Remote",
+          "remote": true,
+          "skills": [
+            "Web Development",
+            "Java",
+            "DSA",
+            "React/Node"
+          ],
+          "eligibility": "B.Tech/B.Sc Computer Science students",
+          "deadline": "March 2026",
+          "description": "Build and maintain customer-facing web interfaces and integration APIs. Requires balancing web development speed with efficient backend logic.",
+          "source": "Zepto Careers",
+          "url": "https://www.zeptonow.com/careers",
+          "source_type": "LIVE_API",
+          "stipend_or_salary": "₹40,000 / month",
+          "id": "opp_1787466702041_fnozhs",
+          "created_at": "2026-08-23T06:31:42.041Z",
+          "matchScore": 54,
+          "breakdown": {
+            "skillsScore": 0,
+            "eligibilityScore": 20,
+            "locationScore": 14,
+            "typeScore": 10,
+            "experienceScore": 10
+          },
+          "matchReasons": [
+            "Offers remote flexibility matching your preferences",
+            "Eligible for B.Tech 2nd Year standing"
+          ],
+          "concerns": [
+            "Additional tooling required: Web Development, Java"
+          ],
+          "matchedSkills": [],
+          "missingSkills": [
+            "Web Development",
+            "Java",
+            "DSA",
+            "React/Node"
+          ]
+        }
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Docker",
+          "frequency": 3,
+          "priority": "CRITICAL",
+          "suggestedAction": "Learn Dockerfile creation, image building, and containerizing a Python FastAPI script.",
+          "estimatedTimeToLearn": "2–3 days (4–6 hours)",
+          "sampleMiniProject": "Containerize a local ML prediction script with a health endpoint."
+        },
+        {
+          "skill": "Java",
+          "frequency": 1,
+          "priority": "NICE_TO_HAVE",
+          "suggestedAction": "Review fundamentals of Java and build a quick hands-on component.",
+          "estimatedTimeToLearn": "3–5 days",
+          "sampleMiniProject": "Build a demo micro-service or module utilizing Java."
+        },
+        {
+          "skill": "DSA",
+          "frequency": 1,
+          "priority": "NICE_TO_HAVE",
+          "suggestedAction": "Review fundamentals of DSA and build a quick hands-on component.",
+          "estimatedTimeToLearn": "3–5 days",
+          "sampleMiniProject": "Build a demo micro-service or module utilizing DSA."
+        }
+      ],
+      "action_plan": [
+        {
+          "id": "plan_act_1787764920448_1",
+          "timeframe": "TODAY",
+          "title": "Review and bookmark Data Engineering Intern at JPMorgan Chase & Co.",
+          "description": "Read the role requirements on the official source (Company Careers), verify deadline (2026-02-20), and align resume keywords with Python, SQL, Pandas.",
+          "completed": false,
+          "relatedOpportunityId": "opp_1787764685612_twmq7f"
+        },
+        {
+          "id": "plan_act_1787764920448_2",
+          "timeframe": "TODAY",
+          "title": "Update resume with relevant project highlights",
+          "description": "Highlight your Python & Machine Learning project experience and course achievements from your B.Tech program.",
+          "completed": false
+        },
+        {
+          "id": "plan_act_1787764920448_3",
+          "timeframe": "NEXT_3_DAYS",
+          "title": "Learn Docker fundamentals",
+          "description": "Learn Dockerfile creation, image building, and containerizing a Python FastAPI script. Target completion: 2–3 days (4–6 hours).",
+          "completed": false
+        },
+        {
+          "id": "plan_act_1787764920448_4",
+          "timeframe": "NEXT_3_DAYS",
+          "title": "Build mini-project for Docker",
+          "description": "Containerize a local ML prediction script with a health endpoint.",
+          "completed": false
+        },
+        {
+          "id": "plan_act_1787764920448_5",
+          "timeframe": "THIS_WEEK",
+          "title": "Submit applications to top 3 ranked opportunities in Hyderabad",
+          "description": "Submit tailored applications for JPMorgan Chase & Co., JP Morgan Chase, Zepto. Track each submission in NovaPath Applications tracker.",
+          "completed": false
+        },
+        {
+          "id": "plan_act_1787764920448_6",
+          "timeframe": "THIS_WEEK",
+          "title": "Prepare standard technical & behavioural interview responses",
+          "description": "Practice explaining your ML project architectures, model evaluation trade-offs, and collaborative team experiences.",
+          "completed": false
+        },
+        {
+          "id": "plan_act_1787764920448_7",
+          "timeframe": "NEXT_2_WEEKS",
+          "title": "Follow up on submitted applications & network with mentors",
+          "description": "Connect with alumni or engineers at target organizations on LinkedIn to request informational referrals.",
+          "completed": false
+        }
+      ],
+      "memory_updates": [
+        {
+          "user_id": "demo_student_user_01",
+          "memory_type": "INTERACTION",
+          "memory_text": "User executed career goal: \"full stack engineering job roles\"",
+          "importance": "MEDIUM",
+          "category": "Execution History",
+          "id": "mem_1787764920498_62jug",
+          "created_at": "2026-08-26T17:22:00.498Z",
+          "updated_at": "2026-08-26T17:22:00.498Z"
+        }
+      ],
+      "completed_at": "2026-08-26T17:22:00.540Z"
+    },
     {
       "id": "run_1787476463504_atstv",
       "user_id": "demo_student_user_01",
@@ -25252,6 +29759,224 @@
       "completed_at": "2026-08-23T09:14:44.174Z",
       "id": "step_1787476484125_w8ly6",
       "created_at": "2026-08-23T09:14:44.125Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 1,
+      "step_name": "understand_objective",
+      "display_title": "Understanding your objective",
+      "status": "COMPLETED",
+      "result_summary": "Manoj is seeking full stack engineering internship opportunities in Hyderabad with a preference for remote flexibility to complement his existing AI/ML and Python skill set.",
+      "details": {
+        "parsed_goal": {
+          "roleOrDomain": "Full Stack",
+          "preferredLocation": "Hyderabad",
+          "opportunityType": "Internship",
+          "remotePreferred": true,
+          "targetSkills": [
+            "Python",
+            "SQL",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Git"
+          ],
+          "extractedPreferences": [
+            "Full stack development roles",
+            "Hyderabad location preference",
+            "Remote flexibility preferred"
+          ],
+          "intentSummary": "Manoj is seeking full stack engineering internship opportunities in Hyderabad with a preference for remote flexibility to complement his existing AI/ML and Python skill set."
+        }
+      },
+      "started_at": "2026-08-26T17:18:17.943Z",
+      "completed_at": "2026-08-26T17:22:00.259Z",
+      "id": "step_1787764697943_q1o1z",
+      "created_at": "2026-08-26T17:18:17.943Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 2,
+      "step_name": "load_profile",
+      "display_title": "Loading your student profile",
+      "status": "COMPLETED",
+      "result_summary": "Loaded profile for Manoj (B.Tech Year 2, Artificial Intelligence & Machine Learning) with 7 verified skills.",
+      "details": {
+        "user_name": "Manoj",
+        "degree": "B.Tech",
+        "year": 2,
+        "skills": [
+          "Python",
+          "SQL",
+          "Machine Learning",
+          "Git",
+          "Pandas",
+          "pytorch",
+          "github"
+        ]
+      },
+      "started_at": "2026-08-26T17:18:17.961Z",
+      "completed_at": "2026-08-26T17:18:17.982Z",
+      "id": "step_1787764697961_f5s8a",
+      "created_at": "2026-08-26T17:18:17.961Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 3,
+      "step_name": "retrieve_memory",
+      "display_title": "Retrieving persistent memory & preferences",
+      "status": "COMPLETED",
+      "result_summary": "Recalled 5 persistent memory nodes including location (Hyderabad) and work style preferences.",
+      "details": {
+        "retrieved_preferences": [
+          "User executed career goal: \"Find opportunities for me.\"",
+          "User executed career goal: \"software engineering jobs\"",
+          "User executed career goal: \"software engineering jobs\"",
+          "User executed career goal: \"i want a hackathon in hyderabad\"",
+          "User executed career goal: \"I want an AI/ML internship in Hyderabad.\"",
+          "Preferred location: Hyderabad",
+          "Remote flexibility preferred"
+        ]
+      },
+      "started_at": "2026-08-26T17:18:18.001Z",
+      "completed_at": "2026-08-26T17:18:18.019Z",
+      "id": "step_1787764698001_56ufp",
+      "created_at": "2026-08-26T17:18:18.001Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 4,
+      "step_name": "plan_search",
+      "display_title": "Creating opportunity search plan",
+      "status": "COMPLETED",
+      "result_summary": "Formulated multi-criteria search plan: Domain='Full Stack', Location='Hyderabad', Remote='Yes'.",
+      "details": {
+        "targetLocation": "Hyderabad",
+        "targetDomain": "Full Stack",
+        "targetRemote": true
+      },
+      "started_at": "2026-08-26T17:22:00.275Z",
+      "completed_at": "2026-08-26T17:22:00.292Z",
+      "id": "step_1787764920275_di1mi",
+      "created_at": "2026-08-26T17:22:00.275Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 5,
+      "step_name": "search_opportunities",
+      "display_title": "Searching opportunity sources",
+      "status": "COMPLETED",
+      "result_summary": "Retrieved 91 candidate opportunities from NovaPath Verified Opportunity Index (Live & Curated).",
+      "details": {
+        "totalFound": 91,
+        "querySummary": "Search parameters: Domain=Full Stack, Location=Hyderabad, Remote=Yes"
+      },
+      "started_at": "2026-08-26T17:22:00.308Z",
+      "completed_at": "2026-08-26T17:22:00.323Z",
+      "id": "step_1787764920308_a6wki",
+      "created_at": "2026-08-26T17:22:00.308Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 6,
+      "step_name": "evaluate_fit",
+      "display_title": "Evaluating opportunity-to-profile fit",
+      "status": "COMPLETED",
+      "result_summary": "Evaluated 91 opportunities with transparent weighted scoring matrix.",
+      "details": {
+        "evaluated_count": 91
+      },
+      "started_at": "2026-08-26T17:22:00.338Z",
+      "completed_at": "2026-08-26T17:22:00.354Z",
+      "id": "step_1787764920338_5jfpx",
+      "created_at": "2026-08-26T17:22:00.338Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 7,
+      "step_name": "identify_skill_gaps",
+      "display_title": "Identifying skill gaps & learning paths",
+      "status": "COMPLETED",
+      "result_summary": "Identified 3 priority skill gaps (Docker, Java, DSA) with targeted learning steps.",
+      "details": {
+        "gaps_count": 3,
+        "top_gaps": [
+          {
+            "skill": "Docker",
+            "frequency": 3,
+            "priority": "CRITICAL",
+            "suggestedAction": "Learn Dockerfile creation, image building, and containerizing a Python FastAPI script.",
+            "estimatedTimeToLearn": "2–3 days (4–6 hours)",
+            "sampleMiniProject": "Containerize a local ML prediction script with a health endpoint."
+          },
+          {
+            "skill": "Java",
+            "frequency": 1,
+            "priority": "NICE_TO_HAVE",
+            "suggestedAction": "Review fundamentals of Java and build a quick hands-on component.",
+            "estimatedTimeToLearn": "3–5 days",
+            "sampleMiniProject": "Build a demo micro-service or module utilizing Java."
+          },
+          {
+            "skill": "DSA",
+            "frequency": 1,
+            "priority": "NICE_TO_HAVE",
+            "suggestedAction": "Review fundamentals of DSA and build a quick hands-on component.",
+            "estimatedTimeToLearn": "3–5 days",
+            "sampleMiniProject": "Build a demo micro-service or module utilizing DSA."
+          }
+        ]
+      },
+      "started_at": "2026-08-26T17:22:00.369Z",
+      "completed_at": "2026-08-26T17:22:00.387Z",
+      "id": "step_1787764920369_wbsu2",
+      "created_at": "2026-08-26T17:22:00.369Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 8,
+      "step_name": "rank_opportunities",
+      "display_title": "Ranking your best opportunity matches",
+      "status": "COMPLETED",
+      "result_summary": "Top match: 'Data Engineering Intern' at JPMorgan Chase & Co. (100% Match Score).",
+      "details": {
+        "top_match_title": "Data Engineering Intern",
+        "top_match_score": 100
+      },
+      "started_at": "2026-08-26T17:22:00.402Z",
+      "completed_at": "2026-08-26T17:22:00.417Z",
+      "id": "step_1787764920402_7jvz7",
+      "created_at": "2026-08-26T17:22:00.402Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 9,
+      "step_name": "generate_action_plan",
+      "display_title": "Creating your concrete action plan",
+      "status": "COMPLETED",
+      "result_summary": "Created 7-step structured action plan with realistic timeframes.",
+      "details": {
+        "total_actions": 7
+      },
+      "started_at": "2026-08-26T17:22:00.432Z",
+      "completed_at": "2026-08-26T17:22:00.448Z",
+      "id": "step_1787764920432_mfonv",
+      "created_at": "2026-08-26T17:22:00.432Z"
+    },
+    {
+      "agent_run_id": "run_1787764697922_odycb",
+      "step_number": 10,
+      "step_name": "update_memory",
+      "display_title": "Updating persistent memory",
+      "status": "COMPLETED",
+      "result_summary": "Persisted 1 memory updates to student's long-term profile storage.",
+      "details": {
+        "memory_updates_count": 1
+      },
+      "started_at": "2026-08-26T17:22:00.472Z",
+      "completed_at": "2026-08-26T17:22:00.522Z",
+      "id": "step_1787764920472_a9zml",
+      "created_at": "2026-08-26T17:22:00.472Z"
     }
   ],
   "ats_reports": [
